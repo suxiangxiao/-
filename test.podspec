@@ -7,7 +7,7 @@ s.license      = 'MIT'
 s.author       = {'kbo' => '13751882497.com'}
 s.source       = { :git => 'https://github.com/suxiangxiao/test.git'}
 s.platform     = :ios
-s.source_files = 'test/*.{h,m}'
-s.resources    = 'test/Resource/*.{png}'
+s.source_files = './*.{h,m}'
+s.resources    = './Resource/*.{png}'
 #s.frameworks = '*.helloFramework/helloFramework'
 end
